@@ -19,20 +19,31 @@ print("Concatenated String:", message)  # Output: Hello World
 # 2. String Functions
 # ----------------------------------------
 
-# phrase = "Python is FUN!"
+phrase = "Python is FUN!"
 
 # # Convert all characters to lowercase
-# print("Lowercase:", phrase.lower())  # Output: python is fun!
+print("Lowercase:", phrase.lower())  # Output: python is fun!
 
 # # Convert all characters to uppercase
-# print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
+print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
+
+name = "Damian Salas Serrano"
+print("Uppercase:", name.upper())
+print("Lowercase:", name.upper())
 
 # # Check if all characters are uppercase
-# print("Is Uppercase?", phrase.isupper())  # Output: False
+print("Is Uppercase?", phrase.isupper())  # Output: False
+
+#see if your name is uppercase
+print("name",name.isupper()) #true or false
+#capitalization
+print("name",name.capitalize())
 
 # # Find the length of the string
-# print("Length of phrase:", len(phrase))  # Output: 14
-
+print("Length of phrase:", len(phrase))  # Output: 14
+declaration_of_independence = "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
+length_dec = len(declaration_of_independence)
+print(length_dec)
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
