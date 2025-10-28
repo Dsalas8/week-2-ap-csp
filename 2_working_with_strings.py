@@ -63,6 +63,13 @@ print(chicago_mayor[-1])
 print("First character:", phrase[0])  # Output: P
 print("Last character:", phrase[-1])  # Output: !
 
+phrase3 = "Supercagifragilitic"
+#uppercase it
+#slice super out of it into a different variable
+#slice cagi out of phrase 3 into its own variable
+#print out the last letter 
+print(phrase3[0:5])
+print(phrase3[5:9])
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
 
