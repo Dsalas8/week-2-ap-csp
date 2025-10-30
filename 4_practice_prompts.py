@@ -43,16 +43,23 @@ print(f"My favorite movie is {favorite_movie}")
 # Print your name and age on separate lines using a single print() function.
 name = "Isabella"
 age = 16
+
 print(f"My name is {name}, and I am {age}.")
 
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
-print(f"In 10 years, {name} will be )
+num1 = 16
+num2 = 10
+print(f"In 10 years, {name} will be 26")
 ##############################################################################################################
 
 ###########################String Practice##################################
 #syntax is the way we write code
 # print("Hello World")
+print("Hello world!")
+
 # name = "John"
+name = "John"
+
 #in other languages, this is different
 # in javascript for example, you define
 #variables with let or const or var
