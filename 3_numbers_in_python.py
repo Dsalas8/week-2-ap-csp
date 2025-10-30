@@ -36,7 +36,7 @@ num2 =10
 print("num1 - num2")
 # Multiplication
 mul_result = 4 * 3
-print("Multiplication (4 * 3):", mul_result)  # 12
+print("Multiplication (4 * 3):", mul_result)  # 12  
 num1 =9 
 num2 =8
 print("num1 * num2")
